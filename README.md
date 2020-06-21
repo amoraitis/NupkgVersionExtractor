@@ -1,8 +1,17 @@
 # NupkgVersionExtractor
 
+![Nuget](https://img.shields.io/nuget/v/NupkgVersionExtractor?style=social)
+
 Extracting a `.nupkg` file's version should be as easy as `command pathToFile`.
 
 This is a pretty simple project to extract the version contained in the path of a `.nupkg` file.(Meaning that no .csproj is needed!)
+
+### dotnet-tools
+
+```
+dotnet tool install --global NupkgVersionExtractor --version 1.0.0.2
+nupkg-version-extractor {pathToNupkg}
+```
 
 ### Execute locally
 
