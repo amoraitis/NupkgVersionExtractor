@@ -11,6 +11,6 @@
     <Authors>amoraitis</Authors>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/amoraitis/NupkgVersionExtractor</RepositoryUrl>
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.3</Version>
   </PropertyGroup>
 </Project>

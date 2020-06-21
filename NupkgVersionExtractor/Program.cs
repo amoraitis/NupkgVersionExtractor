@@ -9,7 +9,10 @@ namespace NupkgVersionExtractor
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0 || File.Exists(args[0]) == false)
+            var bashPathInWin = Path.GetFullPath(args[0].Substring(1));
+            var fileExists = File.Exists(args[0]) || File.Exists(bashPathInWin);
+
+            if (args.Length == 0 && fileExists == false)
             {
                 throw new ArgumentException("1st argument should be a valid path to a file.");
             }
