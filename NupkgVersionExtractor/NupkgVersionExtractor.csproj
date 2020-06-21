@@ -3,7 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PublishTrimmed>true</PublishTrimmed>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>nupkg-version-extractor</ToolCommandName>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <PackageLicenseFile></PackageLicenseFile>
+    <Authors>amoraitis</Authors>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/amoraitis/NupkgVersionExtractor</RepositoryUrl>
+    <Version>1.0.0.2</Version>
+  </PropertyGroup>
 </Project>
