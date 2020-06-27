@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "NupkgVersionExtractor": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\tasos\\Documents\\Bol.Source\\bol-core\\Bol.Core\\Bol.Core.0.0.1.nupkg"
-    }
-  }
-}
