@@ -9,7 +9,7 @@ This is a pretty simple project to extract the version contained in the path of 
 ### dotnet-tools
 
 ```
-dotnet tool install --global NupkgVersionExtractor --version 1.0.0.3
+dotnet tool install --global NupkgVersionExtractor --version 1.0.1
 nupkg-version-extractor {pathToNupkg}
 ```
 
