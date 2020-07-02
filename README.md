@@ -4,13 +4,15 @@
 
 Extracting a `.nupkg` file's version should be as easy as `command pathToFile`.
 
-This is a pretty simple project to extract the version contained in the path of a `.nupkg` file.(Meaning that no .csproj is needed!)
+This is a pretty simple project to extract the info contained in a `.nupkg` file.(Meaning that no .csproj is needed!)
 
 ### dotnet-tools
 
 ```
 dotnet tool install --global NupkgVersionExtractor --version 1.0.1
-nupkg-version-extractor {pathToNupkg}
+nupkg-version-extractor {pathToNupkg} // returns version
+nupkg-version-extractor {pathToNupkg} -withName // returns name and version(space separated)
+nupkg-version-extractor {pathToNupkg} -scanNupkg // returns a new-line separated list of key-value space separeted pairs
 ```
 
 ### Execute locally
